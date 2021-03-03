@@ -1,7 +1,6 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css">
-	<title>Joey Day: Project Portfolio</title>
   </head>
   <body>
     <div id='container'>
@@ -14,106 +13,62 @@
         </div>
         
         <div id='title'>
-          <h1>~ Joey Day ~</h1>
+          <h1> Joey Day </h1>
           <h5> <a href='mailto:JoeyDay172@gmail.com'>JoeyDay172@gmail.com </a></h5>
           <h5> 616-490-1477</h5>
         </div>
-        <hr class='sidebarDivider'><br>
-		<p>Grand Rapids Community College</p>
-		<p>Associate of Science, Pre-Engineering</p>
-		<p> </p>
-		<p> </p>
-		<!--
-        <div class='button'>
-          <a href='https://github.com/Joey172/TicTacToe' title='View on Github' target='_blank'>
-            <img class='buttonImg' align='right' src='GitHub-Mark-Light-32px.png'> </img>
-          </a>
-          <p> Github </p>
-        </div>
-		<br>
-        <div class='button'>
-          <a  title='View on Github' target='_blank'>
-            <img class='buttonImg' align='right' src='LI-In-Bug_white.png'> </img>
-            LinkedIn
-          </a>
-        </div>
-		      -->
       </div>
-
+      
       <div id='content'>
-        <div id='about'> 
-          <p id='info'> <b>
+      
+        <div class='project'>
+          <div class= 'projTitle'>
+            <p>About me</p>
+          </div>
+          <p class = 'projDesc'>
             Hello, I am a computer engineering student with an interest in embedded systems
-          </b></p>
-		  <h1>~ Projects ~</h1>
+          </p>
         </div>
-		<div id='Projects'>
-			<div class='project'>
-			  <div class= 'projTitle'>
-				<p>Logisim CPU</p>
-				<a href='https://github.com/Joey172/MyCPU' title='View on Github' target='_blank'>
-				<img class='iconlink' align='right' src='GitHub-Mark-Light-32px.png'> </img></a>
-			  </div>
-			  <div class='projDesc'>
-				<div class='desc'>
-				  <h4>Description:</h4>
-				  <hr>
-				  <p>This is a simplistic CPU I built and simulated in Logisim. It is capable of basic arithmitic computations, displaying characters.</p>
-				  <h4>Technical Details:</h4>
-				  <hr>
-				  
-				  <h4>Motivation:</h4>
-				  <hr>
-				  <p>This project was largely inspired by  </p>
-					<p> I wanted to follow along with his videos, but did not have the physical components to do so, and so decided to follow along with this simulation. </p>
-				  <br>
-				  <div class = 'descLinks'>
-					
-					<a href='https://github.com/Joey172/MyCPU'> Github </a>
-				  </div>
-				</div>
-				
-				<div class='projPrev'>
-				  <div class='projBigPrev'>
-					<img src='MyCPU_demo2.gif'> </img>
-				  </div>
-				</div>
-				
-			  </div>
-			</div>
-			<div class='project'>
-			  <div class= 'projTitle'>
-				<p>Advanced Tic Tac Toe</p>
-				<a href='https://github.com/Joey172/TicTacToe' title='View on Github' target='_blank'>
-				<img class='iconlink' align='right' src='GitHub-Mark-Light-32px.png'> </img></a>
-			  </div>
-			  <div class='projDesc'>
-				<div class='desc'>
-				  <h4>Description:</h4>
-				  <hr>
-				  <p>
-					In this game of advanced Tic Tac Toe you strive to take control of several smaller Tic Tac Toe boards, each themselves arranged in a major grid. When placing a tile, you also 
-					 &nbspThis adds a strategic, chess-like element to the game, as you must carefuly consider your moves by predicting the moves of your opponent.
-					 <br><br>
-					It is also three player! In this mode you play on a 5x3 grid rather than the standard 3x3<br><br>
-				  </p>
-				  <h4>Technical Details:</h4>
-				  <hr>
-				  <p>This game was programmed entirely in C++, with the only external library used being <a href='https://www.sfml-dev.org/'>SFML</a>, which is used to handle all window, media, and networking operations. Because of SFML's cross-platform nature, I am easily able use the same source to build for multiple platforms; and so far, I have succesfully done so for Windows and Linux</p>
-				</div>
-				<div class='projPrev'>
-				  <div class='projBigPrev'>
-					<img src='TTT_cap1.png'> </img>
-				  </div>
-				  <br>
-				  <div class='projBigPrev'>
-					<img src='TTT_cap3.bmp'> </img>
-				  </div>
-				</div>
-
-			  </div>
-			</div>
-			</div>
+        
+        <div class='project'>
+          <div class= 'projTitle'>
+            <p>Logisim CPU</p>
+            <a href='https://github.com/Joey172/MyCPU' title='View on Github' target='_blank'>
+            <img class='iconlink' align='right' src='GitHub-Mark-Light-32px.png'> </img></a>
+          </div>
+          <div class='projDesc'>
+            <p>This is a simplistic CPU I built and simulated in Logisim. It is capable of basic arithmitic computations, displaying characters.
+            </p>
+            <div class='projPrev'>
+              <div class='projBigPrev'>
+                <img src='MyCPU_demo2.gif'> </img>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='project'>
+          <div class= 'projTitle'>
+            <p>Advanced Tic Tac Toe</p>
+            <a href='https://github.com/Joey172/TicTacToe' title='View on Github' target='_blank'>
+            <img class='iconlink' align='right' src='GitHub-Mark-Light-32px.png'> </img></a>
+          </div>
+          <div class='projDesc'>
+            <p>In this game of advanced Tic Tac Toe you strive to take control of several smaller Tic Tac Toe boards, each themselves arranged in a major grid. When placing a tile, you also 
+            &nbspThis adds a strategic, chess-like element to the game, as you must carefuly consider your moves by predicting the moves of your opponent.
+            <br><br>
+            It is also three player! In this mode you play on a 5x3 grid rather than the standard 3x3
+            </p>
+            <div class='projPrev'>
+              <div class='projBigPrev'>
+                <img src='TTT_cap1.png'> </img>
+              </div>
+              <br>
+              <div class='projBigPrev'>
+                <img src='TTT_cap3.bmp'> </img>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!--
