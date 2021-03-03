@@ -129,17 +129,19 @@
 		margin-right:auto;
 		padding-top:15px;
 	}
-	#about h1 {
+	#about h2 {
 		background-color:white;
-		border: 5px 5x 0px 0px solid black;
-		
-		border-radius: 15px 15px 0px 0px;
-		width:250px;
+		border: 5px 15x 0px 0px;
+		border-color:#00B5FF;
+		border-style: solid none none none;
+		border-radius: 40px 40px 0px 0px;
+		width:500px;
 		position:relative;
 		text-align:center;
 		margin-left:auto;
 		margin-right:auto;
-		top:35%;
+		padding-top:5;
+		bottom:-8px;
 	}
 	
     .button {
